@@ -1,7 +1,7 @@
 #define PLUG_NAME "Synth2020"
 #define PLUG_MFR "likelian"
-#define PLUG_VERSION_HEX 0x00000b00
-#define PLUG_VERSION_STR "0.11.0"
+#define PLUG_VERSION_HEX 0x00000c00
+#define PLUG_VERSION_STR "0.12.0"
 #define PLUG_UNIQUE_ID '7Ozq'
 #define PLUG_MFR_ID 'Acme'
 #define PLUG_URL_STR "https://iplug2.github.io"

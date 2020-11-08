@@ -8,7 +8,7 @@
 Synth2020::Synth2020(const InstanceInfo& info)
 : Plugin(info, MakeConfig(kNumParams, kNumPresets))
 {
-  GetParam(kParamGain)->InitDouble("Gain", 0., 0., 100.0, 0.01, "%"); // TASK_04
+  GetParam(kParamGain)->InitGain("Gain", -20., -70., 6., 0.5); // TASK_04
   GetParam(kParamAmpAttack)->InitDouble("Attack", 10., 1., 1000., 0.1, "ms", IParam::kFlagsNone, "ADSR", IParam::ShapePowCurve(3.));
   GetParam(kParamAmpDecay)->InitDouble("Decay", 10., 1., 1000., 0.1, "ms", IParam::kFlagsNone, "ADSR", IParam::ShapePowCurve(3.));
   GetParam(kParamAmpSustain)->InitDouble("Sustain", 50., 0., 100., 1, "%", IParam::kFlagsNone, "ADSR");
