@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Synth2020</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Synth2020 v0.2.0 Copyright 2020 Acme Inc</string>
+	<string>Synth2020 v0.4.0 Copyright 2020 Acme Inc</string>
 	<key>CFBundleIconFile</key>
 	<string>Synth2020.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -19,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2.0</string>
+	<string>0.4.0</string>
 	<key>CFBundleSignature</key>
 	<string>7Ozq</string>
 	<key>CFBundleVersion</key>
-	<string>0.2.0</string>
+	<string>0.4.0</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>LSApplicationCategoryType</key>
