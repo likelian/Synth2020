@@ -16,21 +16,21 @@
 			<key>sandboxSafe</key>
 			<true/>
 			<key>subtype</key>
-			<string>lQhx</string>
+			<string>7Ozq</string>
 			<key>type</key>
 			<string>aumu</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>512</integer>
 		</dict>
 	</array>
 	<key>AudioUnit Version</key>
-	<string>0x00000000</string>
+	<string>0x00000200</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>Synth2020</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Synth2020 v0.0.0 Copyright 2020 Acme Inc</string>
+	<string>Synth2020 v0.2.0 Copyright 2020 Acme Inc</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.likelian.audiounit.Synth2020</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -40,11 +40,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.0.0</string>
+	<string>0.2.0</string>
 	<key>CFBundleSignature</key>
-	<string>lQhx</string>
+	<string>7Ozq</string>
 	<key>CFBundleVersion</key>
-	<string>0.0.0</string>
+	<string>0.2.0</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>LSMinimumSystemVersion</key>
