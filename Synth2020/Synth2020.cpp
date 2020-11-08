@@ -94,8 +94,9 @@ Synth2020::Synth2020(const InstanceInfo& info)
     // Master controls
 
     /* TASK_03 -- insert some code here! */
-    
-    pGraphics->AttachControl(new ISVGKnobControl(masterArea.GetCentredInside(100), knobSVG, kParamGain)); /* TASK_02 */
+    pGraphics->AttachControl(new ITextControl(masterArea.GetCentredInside(100).GetTranslated(0,-100).GetFromBottom(20.f), "Volume"));
+    pGraphics->AttachControl(new ISVGKnobControl(masterArea.GetCentredInside(75), knobSVG, kParamGain)); /* TASK_02 */
+    pGraphics->AttachControl(new ICaptionControl(masterArea.GetCentredInside(100).GetTranslated(0,100).GetFromTop(20.f), kParamGain));
     
     // Keyboard
     pGraphics->AttachControl(new IVKeyboardControl(keyboardArea, 36, 64), kCtrlTagKeyboard);
